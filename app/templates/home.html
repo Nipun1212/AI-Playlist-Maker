@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>AI Playlist Generator</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link
+      href="{{ url_for('static', filename='css/styles.css') }}"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Responsive navbar-->
+    <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#!">Playlist Generator</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#!">Home</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#!">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav> -->
+    <!-- Header - set the background image for the header in the line below-->
+    <header
+      class="py-5 bg-image-full"
+      style="background-image: url('{{ url_for('static', filename='images/bg.jpg') }}')"
+    >
+      <div class="text-center my-5" style="position: relative; top: -30px">
+        <h1
+          class="text-white fs-1 fw-bolder"
+          style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); font-size: 2.5rem"
+        >
+          Playlist AI
+        </h1>
+      </div>
+    </header>
+
+    <!-- Content section-->
+    <section class="py-5">
+      <div class="container my-5">
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <h2>Discover Personalized Playlists</h2>
+            <p class="lead">
+              Welcome to the AI Playlist Generator! Our advanced AI algorithms
+              can create personalized playlists based on your preferences and
+              music taste. Simply enter your prompt, and let our AI do the magic
+              for you.
+            </p>
+            <p class="mb-0">
+              Whether you're looking for a playlist for your workout session, a
+              road trip, or just to relax, our AI Playlist Generator has got you
+              covered. Sit back, relax, and let the music take you on a journey!
+            </p>
+            <a href="/login" class="btn btn-outline-dark btn-lg mt-4 hover"
+              >Discover Your Playlist</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Image element - set the background image for the header in the line below-->
+    <div
+      class="py-5 bg-image-full"
+      style="background-image: url('static/images/alt.jpg')"
+    >
+      <!-- Put anything you want here! The spacer below with inline CSS is just for demo purposes!-->
+      <div style="height: 20rem"></div>
+    </div>
+    <!-- Content section-->
+    <section class="py-5">
+      <div class="container my-5">
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <h2>Discover New Music with AI Recommendations</h2>
+            <p class="lead">
+              Expand your musical horizons with our AI-powered Playlist
+              Generator. Our innovative algorithms analyze millions of songs to
+              recommend new tracks and artists based on your preferences.
+            </p>
+            <p class="mb-0">
+              Whether you're looking to discover emerging artists, explore
+              different genres, or find hidden gems, our AI Playlist Generator
+              is your ultimate music companion. We'll curate personalized
+              recommendations that align with your musical taste, helping you
+              explore new sounds and artists you might have never discovered
+              otherwise. Get ready to embark on a musical journey like never
+              before!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer-->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">
+          Copyright &copy; Your Website 2023
+        </p>
+      </div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

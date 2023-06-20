@@ -1,0 +1,1 @@
+FLASK_APP=ai-playlist-maker.py
