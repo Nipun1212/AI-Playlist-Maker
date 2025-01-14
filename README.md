@@ -1,5 +1,5 @@
 # AI-Playlist-Maker
- "AI Playlist Maker is an innovative playlist maker powered by cutting-edge language models. Harnessing the creative prowess of ChatGPT and BARD, it transforms your musical preferences into personalized Spotify playlists. Simply input your favorite artists and songs, and let it curate a mesmerizing musical journey just for you.
+ AI Playlist Maker is an innovative playlist maker powered by cutting-edge language models. Harnessing the creative prowess of ChatGPT and BARD, it transforms your musical preferences into personalized Spotify playlists. Simply input your favorite artists and songs, and let it curate a mesmerizing musical journey just for you.
 
 
 Installation:
